@@ -7,7 +7,7 @@ O objetivo é construir uma API REST em Python para executar backtests de estrat
 A API permite que o usuário escolha o ativo, o período e os parâmetros da estratégia, retornando o resultado do backtest em JSON.
 O sistema já possui tratamento de erros, validação de entradas e documentação automática.
 
-#⚙️ Tecnologias utilizadas
+## ⚙️ Tecnologias utilizadas
 
 Python 3.10+
 
