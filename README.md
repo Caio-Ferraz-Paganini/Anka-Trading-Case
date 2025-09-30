@@ -73,14 +73,14 @@ cd trading-case/frontend
 Instalar dependências (exemplo com npm ou yarn)
 
 npm install
-# ou
+ou
 yarn install
 
 
 Rodar o frontend
 
 npm start
-# ou
+ou
 yarn start
 
 📡 Endpoints disponíveis
