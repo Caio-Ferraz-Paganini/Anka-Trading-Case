@@ -1,4 +1,4 @@
-📈 Trading Case API – Backtests com Python
+#📈 Trading Case API – Backtests com Python
 📌 Descrição
 
 Este projeto foi desenvolvido como parte de um processo seletivo.
@@ -7,7 +7,7 @@ O objetivo é construir uma API REST em Python para executar backtests de estrat
 A API permite que o usuário escolha o ativo, o período e os parâmetros da estratégia, retornando o resultado do backtest em JSON.
 O sistema já possui tratamento de erros, validação de entradas e documentação automática.
 
-⚙️ Tecnologias utilizadas
+#⚙️ Tecnologias utilizadas
 
 Python 3.10+
 
@@ -23,7 +23,7 @@ PostgreSQL – (planejado para persistência futura)
 
 React / JavaScript – Frontend (em pasta separada)
 
-📂 Estrutura do projeto
+#📂 Estrutura do projeto
 trading-case/
 ├── backend/          # Backend FastAPI
 │   ├── main.py
@@ -36,7 +36,7 @@ trading-case/
 ├── tests/            # Testes automatizados da API
 └── README.md         # Documentação
 
-🚀 Como rodar o projeto
+#🚀 Como rodar o projeto
 Backend
 
 Entrar na pasta backend:
@@ -83,12 +83,13 @@ npm start
 ou
 yarn start
 
-📡 Endpoints disponíveis
+#📡 Endpoints disponíveis
 Método	Endpoint	Descrição
 POST	/api/backtest	Executa backtests com parâmetros customizados
 GET	/api/strategies	Lista estratégias disponíveis
 GET	/api/health	Verifica se a API está rodando corretamente
-📊 Exemplo de uso
+
+#📊 Exemplo de uso
 
 Request:
 
@@ -108,7 +109,7 @@ Response:
   "profit": 567.34
 }
 
-✅ Testes realizados
+#✅ Testes realizados
 
 Rodou múltiplos tickers (AAPL, TSLA, GOOGL) com diferentes parâmetros.
 
@@ -118,7 +119,7 @@ Todos os endpoints retornaram JSONs com métricas realistas.
 
 Testes automatizados estão na pasta tests/.
 
-🌟 Próximos passos (diferenciais)
+#🌟 Próximos passos (diferenciais)
 
 Persistência de resultados em PostgreSQL.
 
@@ -132,6 +133,6 @@ Modelos simples de Machine Learning como filtro de tendência.
 
 Melhor integração com frontend (dashboard interativo).
 
-👨‍💻 Autor
+#👨‍💻 Autor
 
 Desenvolvido por Caio Silva como parte de um desafio técnico.
