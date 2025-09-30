@@ -23,7 +23,7 @@ PostgreSQL – (planejado para persistência futura)
 
 React / JavaScript – Frontend (em pasta separada)
 
-#📂 Estrutura do projeto
+## 📂 Estrutura do projeto
 trading-case/
 ├── backend/          # Backend FastAPI
 │   ├── main.py
@@ -36,60 +36,60 @@ trading-case/
 ├── tests/            # Testes automatizados da API
 └── README.md         # Documentação
 
-#🚀 Como rodar o projeto
+## 🚀 Como rodar o projeto
 Backend
 
-Entrar na pasta backend:
+### Entrar na pasta backend:
 
 cd trading-case/backend
 
 
-Criar ambiente virtual (opcional, mas recomendado)
+### Criar ambiente virtual (opcional, mas recomendado)
 
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
 
-Instalar dependências
+### Instalar dependências
 
 pip install -r requirements.txt
 
 
-Rodar o servidor
+### Rodar o servidor
 
 uvicorn main:app --reload
 
 
 A API ficará disponível em: http://127.0.0.1:8000/docs
 
-Frontend
+### Frontend
 
 Entrar na pasta frontend
 
 cd trading-case/frontend
 
 
-Instalar dependências (exemplo com npm ou yarn)
+### Instalar dependências (exemplo com npm ou yarn)
 
 npm install
 ou
 yarn install
 
 
-Rodar o frontend
+### Rodar o frontend
 
 npm start
 ou
 yarn start
 
-#📡 Endpoints disponíveis
+## 📡 Endpoints disponíveis
 Método	Endpoint	Descrição
 POST	/api/backtest	Executa backtests com parâmetros customizados
 GET	/api/strategies	Lista estratégias disponíveis
 GET	/api/health	Verifica se a API está rodando corretamente
 
-#📊 Exemplo de uso
+## 📊 Exemplo de uso
 
 Request:
 
@@ -109,7 +109,7 @@ Response:
   "profit": 567.34
 }
 
-#✅ Testes realizados
+## ✅ Testes realizados
 
 Rodou múltiplos tickers (AAPL, TSLA, GOOGL) com diferentes parâmetros.
 
@@ -119,7 +119,7 @@ Todos os endpoints retornaram JSONs com métricas realistas.
 
 Testes automatizados estão na pasta tests/.
 
-#🌟 Próximos passos (diferenciais)
+## 🌟 Próximos passos (diferenciais)
 
 Persistência de resultados em PostgreSQL.
 
@@ -133,6 +133,6 @@ Modelos simples de Machine Learning como filtro de tendência.
 
 Melhor integração com frontend (dashboard interativo).
 
-#👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por Caio Silva como parte de um desafio técnico.
