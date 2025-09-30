@@ -25,15 +25,25 @@ React / JavaScript – Frontend (em pasta separada)
 
 ## 📂 Estrutura do projeto
 trading-case/
+
 ├── backend/          # Backend FastAPI
+
 │   ├── main.py
+
 │   ├── requirements.txt
+
 │   └── app/
+
 │       ├── api.py
+
 │       ├── backtest.py
+
 │       └── strategies.py
+
 ├── frontend/         # Código do frontend (React ou similar)
+
 ├── tests/            # Testes automatizados da API
+
 └── README.md         # Documentação
 
 ## 🚀 Como rodar o projeto
