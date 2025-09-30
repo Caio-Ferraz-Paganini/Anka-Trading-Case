@@ -1,4 +1,4 @@
-#📈 Trading Case API – Backtests com Python
+# 📈 Trading Case API – Backtests com Python
 📌 Descrição
 
 Este projeto foi desenvolvido como parte de um processo seletivo.
