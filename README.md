@@ -1,5 +1,5 @@
 # Trading Case API – Backtests com Python
-- Descrição
+### Descrição
 
 Este projeto foi desenvolvido como parte de um processo seletivo.
 O objetivo é construir uma API REST em Python para executar backtests de estratégias de trend following (ex.: cruzamento de médias móveis) usando dados históricos do Yahoo Finance e a biblioteca Backtrader.
