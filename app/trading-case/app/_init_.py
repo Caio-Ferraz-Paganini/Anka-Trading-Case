@@ -1,1 +1,0 @@
-# Trading Case Application Package
